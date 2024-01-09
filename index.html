@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emoji Translator</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body class="bg-gray-700 text-white">
     <div id="translator" class="bg-gray-900 p-8 rounded-md mx-auto mt-10 max-w-md"></div>
-        <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+        <textarea id="inputText" class="bg-gray-700 text-white border-2 border-gray-600 rounded p-2 mb-4" placeholder="Enter text to translate"></textarea>
         <button id="translateButton" class="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded-md cursor-pointer" onclick="translateText()">Translate to Emoji</button>
         <div id="outputText" class="mt-4 font-bold"></div>
     </div>
