@@ -10,6 +10,8 @@ body {
 
 .container {
     text-align: center;
+        display: block;
+    margin: 0 auto;
 }
 
 textarea {
@@ -25,4 +27,14 @@ button {
 
 #output {
     margin-top: 20px;
+}
+
+#outputContainer {
+  border-top: 2px solid #4a5568; /* Border color between input and output containers */
+  padding-top: 10px;
+}
+
+#outputText {
+  color: rgb(255, 255, 255); /* Text color for the output */
+  margin-top: 10px;
 }
