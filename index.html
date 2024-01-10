@@ -7,13 +7,14 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="bg-gray-800 text-white">
-  <div id="translator" class="bg-gray-900 p-8 rounded-md max-w-md mx-auto mt-10">
+<body class="bg-gray-800 text-white text-white flex justify-center items-center h-screen">
+  <div id="translator" class="bg-gray-900 p-8 rounded-md max-w-md mx-auto mt-10 text-center">
     <textarea id="inputText" class="bg-gray-700 text-white border-2 border-gray-600 rounded p-2 mb-4" placeholder="Enter text to translate"></textarea>
     <button id="translateButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer" onclick="translateText()">Translate to Emoji</button>
-    <div id="outputText" class="mt-4 font-bold text-2xl"></div>
+    <div id="outputContainer" class="mt-4">
+      <div id="outputText" class="font-bold text-2xl"></div>
+    </div>
   </div>
-
   <script src="./assets/script.js"></script>
 </body>
 </html>

@@ -17,4 +17,3 @@ function translateText() {
         outputTextElement.textContent = 'Translation failed. Please try again.';
       });
   }
-  
