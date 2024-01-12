@@ -48,7 +48,9 @@ function translateText() {
 
         // Assuming the translated emojis are provided as plain text
         if (data.contents && data.contents.translated) {
-          outputTextElement.innerHTML = data.contents.translated; // Use innerHTML to render emojis
+          // Decode HTML entities (if any) before rendering
+          const decodedText = new DOMParser().parseFromString(data.contents.translated, 'text/html').body.textContent;
+          outputTextElement.innerHTML = decodedText; // Use innerHTML to render emojis
         } else {
           outputTextElement.textContent = 'Emoji translation failed. Please try again.';
         }
