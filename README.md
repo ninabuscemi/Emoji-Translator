@@ -1,3 +1,3 @@
-#Emoji Translator
+# Emoji Translator
 
-##Introduction
+## Introduction
