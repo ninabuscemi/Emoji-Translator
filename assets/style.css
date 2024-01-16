@@ -1,12 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    overflow: hidden;
+    margin: 0;
+    background-color: #111; /* Set your desired background color */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-}
+  }
+
+  .falling-emojis {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Set a higher z-index to position it behind the translator div */
+  }
+
+  .falling-emojis span {
+    position: absolute;
+    font-size: 20px; /* Adjust the font size */
+    color: #fff; /* Set the color */
+    animation: fall 5s linear infinite;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
+
+  #translator {
+    z-index: 2; /* Set a lower z-index to position it in front of the falling emojis */
+  }
+  
 
 .container {
     text-align: center;

@@ -8,7 +8,25 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body class="bg-gray-800 text-white text-white flex justify-center items-center h-screen">
-  <div id="translator" class="bg-gray-900 p-8 rounded-md max-w-md mx-auto mt-10 text-center">
+<div class="falling-emojis">
+  <!-- Add spans with different emojis and adjusted positions -->
+  <span style="left: 40%; top: -5%; animation-delay: 0.2s;">😊</span>
+  <span style="left: 50%; top: -10%; animation-delay: 1s;">😄</span>
+  <span style="left: 60%; top: -15%; animation-delay: 0.5s;">🎉</span>
+  <span style="left: 70%; top: -20%; animation-delay: 1.2s;">❤️</span>
+  <span style="left: 80%; top: -25%; animation-delay: 0.8s;">🌟</span>
+  <span style="left: 90%; top: -30%; animation-delay: 0.3s;">🚀</span>
+
+  <!-- Add more spans with different emojis and adjusted positions -->
+  <span style="left: 15%; top: -5%; animation-delay: 0.8s;">🌈</span>
+  <span style="left: 25%; top: -10%; animation-delay: 0.4s;">🌸</span>
+  <span style="left: 35%; top: -15%; animation-delay: 1.3s;">🐾</span>
+  <span style="left: 15%; top: -20%; animation-delay: 0.6s;">🎈</span>
+  <span style="left: 25%; top: -25%; animation-delay: 0.5s;">🍦</span>
+</div> <div id="translator" class="bg-gray-900 p-8 rounded-md max-w-x2 mx-auto mt-2 text-center">
+    <h1 class="text-4xl font-bold mb-4">Emoji Translator</h1>
+  <p class="text-lg text-gray-400 mb-0">Translate 🔄 your text into fun 🤗 and expressive emojis 😄 with ease!</p> <!-- Adjusted margin bottom -->
+  <p class="text-lg text-gray-400 mb-8">Generate random quotes 🗨️ for inspiration 🔮 or entertainment!</p>
     <textarea id="inputText" class="bg-gray-700 text-white border-2 border-gray-600 rounded p-2 mb-4" placeholder="Enter text to translate"></textarea>
     <button id="translateButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer" onclick="translateText()">Translate to Emoji</button>
 
@@ -19,6 +37,5 @@
     </div>
   </div>
   <script src="assets/script.js"></script>
-  <script src="assets/script-quote.js"></script>
 </body>
 </html>

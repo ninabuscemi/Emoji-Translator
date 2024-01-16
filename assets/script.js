@@ -70,5 +70,25 @@ function generateRandomQuote() {
       }
     }
 
+        document.addEventListener('DOMContentLoaded', function() {
+      const emojiContainer = document.getElementById('falling-emojis-container');
+      const emojis = ['😊', '😄', '🎉', '❤️', '🌟', '🚀', '🌈', '🌸', '🐾', '🎈', '🍦'];
+
+      function createEmoji() {
+        const emoji = document.createElement('span');
+        emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+        emoji.style.left = '${80 + Math.random() * 20}%'; // Adjust positioning to be more on the right side
+        emoji.style.top = '${Math.random() * 100}%';
+        emoji.style.animationDelay = '${1 + Math.random()}s'; // Adjust delay for more delay
+
+      }
+
+      function rainEmojis() {
+        setInterval(createEmoji, 0); // Adjust the interval to control the frequency of emojis
+      }
+
+      rainEmojis();
+    });
+
     // Attach the translateText function to the button click event
     document.getElementById('translateButton').addEventListener('click', translateText);
