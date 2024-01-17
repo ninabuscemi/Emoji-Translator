@@ -36,6 +36,8 @@ body {
 
   #translator {
     z-index: 2; /* Set a lower z-index to position it in front of the falling emojis */
+    max-width: 700px;
+    word-wrap: break-word;
   }
   
 
