@@ -23,15 +23,29 @@
   <span style="left: 35%; top: -15%; animation-delay: 1.3s;">🐾</span>
   <span style="left: 15%; top: -20%; animation-delay: 0.6s;">🎈</span>
   <span style="left: 25%; top: -25%; animation-delay: 0.5s;">🍦</span>
-</div> <div id="translator" class="bg-gray-900 p-8 rounded-md max-w-x2 mx-auto mt-2 text-center">
+</div> 
+<div id="translator" class="bg-gray-900 p-8 rounded-md max-w-x2 mx-auto mt-2 text-center">
     <h1 class="text-4xl font-bold mb-4">Emoji Translator</h1>
   <p class="text-lg text-gray-400 mb-0">Translate 🔄 your text into fun 🤗 and expressive emojis 😄 with ease!</p> <!-- Adjusted margin bottom -->
   <p class="text-lg text-gray-400 mb-8">Generate random quotes 🗨️ for inspiration 🔮 or entertainment!</p>
     <textarea id="inputText" class="bg-gray-700 text-white border-2 border-gray-600 rounded p-2 mb-4" placeholder="Enter text to translate"></textarea>
-    <button id="translateButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer" onclick="translateText()">Translate to Emoji</button>
+    
+    <!--Translate to Emoji Button-->
+    <button id="translateButton" 
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer" 
+    onclick="translateText()">Translate to Emoji</button>
 
-<!-- New button to generate random quote -->
-    <button id="generateQuoteButton" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-4" onclick="generateRandomQuote()">Generate Random Quote</button>
+    <!-- Generate Random Quote Button -->
+    <button id="generateQuoteButton" 
+    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-4" 
+    onclick="generateRandomQuote()">Generate Random Quote</button>
+
+    <!-- Copy Button -->   
+    <button id="copyButton" 
+    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-4" 
+    onclick="copyOutputText()">Copy</button>
+
+    <!--Empty div for Output Text with Emojis-->
     <div id="outputContainer" class="mt-4">
       <div id="outputText" class="font-bold text-2xl"></div>
     </div>
