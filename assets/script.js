@@ -51,10 +51,6 @@ function generateRandomQuote() {
     });
 }
 
-// Attach the generateRandomQuote function to the button click event
-document.getElementById('generateQuoteButton').addEventListener('click', generateRandomQuote);
-
-
 
     function translateText() {
       const inputText = document.getElementById('inputText').value;
