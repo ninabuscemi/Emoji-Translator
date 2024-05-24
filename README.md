@@ -74,13 +74,23 @@ The Emoji Translator is a web application designed to provide users with a playf
 
 ## Mockup 
 
-Here is a screenshot of the working application:
+Click [here](https://johnchewning.github.io/Emoji-Translator/) to view the live site.
+
+The web application's appearance and functionality:
 
 ![Screenshot of the Emoji Translator application](./assets/images/Screenshot%20(2).png)
 
 ## Installation
 
-Pushed the code into the github repository and deployed in into github pages. For review and grading purposes, the application is deployed at [(https://johnchewning.github.io/Emoji-Translator/)]. 
+To use the Emoji Translator, follow these steps:
+
+1. [Download](https://github.com/ninabuscemi/TaskForge](https://github.com/ninabuscemi/Emoji-Translator)](https://github.com/JohnChewning/Emoji-Translator)) or clone the repository:
+
+    ```
+    git clone git@github.com:JohnChewning/Emoji-Translator.git
+    ```
+
+2. Open the html link in your local browser.
 
 ## Usage
 
