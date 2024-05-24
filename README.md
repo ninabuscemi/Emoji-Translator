@@ -15,15 +15,23 @@ To enhance user experience, there's a "Copy" button that allows users to easily 
 
 ## Table of Contents
 
+- [Mockup](#mockup)
 - [Project Overview](#project-overview)
 - [Installation](#installation)
-- [Mockup](#mockup)
 - [Usage](#usage)
 - [Challenges](#challenges)
 - [Lessons Learned](#lessons-learned)
 - [Future Development](#future-development)
 - [License](#license)
 - [Developers](#developers)
+
+## Mockup 
+
+Click [here](https://johnchewning.github.io/Emoji-Translator/) to view the live site.
+
+The web application's appearance and functionality:
+
+![Screenshot of the Emoji Translator application](./assets/images/Screenshot%20(2).png)
 
 ## Project Overview
 
@@ -70,15 +78,6 @@ The Emoji Translator is a web application designed to provide users with a playf
 
  **JavaScript:**
    - Implement JavaScript functions for text translation, random quote generation, and copy functionality.
-
-
-## Mockup 
-
-Click [here](https://johnchewning.github.io/Emoji-Translator/) to view the live site.
-
-The web application's appearance and functionality:
-
-![Screenshot of the Emoji Translator application](./assets/images/Screenshot%20(2).png)
 
 ## Installation
 
