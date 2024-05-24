@@ -22,6 +22,8 @@ To enhance user experience, there's a "Copy" button that allows users to easily 
 - [Challenges](#challenges)
 - [Lessons Learned](#lessons-learned)
 - [Future Development](#future-development)
+- [License](#license)
+- [Developers](#developers)
 
 ## Project Overview
 
@@ -73,6 +75,7 @@ The Emoji Translator is a web application designed to provide users with a playf
 ## Mockup 
 
 Here is a screenshot of the working application:
+
 ![Screenshot of the Emoji Translator application](./assets/images/Screenshot%20(2).png)
 
 ## Installation
@@ -121,11 +124,15 @@ Pushed the code into the github repository and deployed in into github pages. Fo
 **Working together with git flow**
   - pushing and pulling code from remote repository with issues and acceptance criteria proved to be difficult. We were able to make branches and fork the repository to push individual code up to the main branch.
 
-
-
 ## Future Development
 
 **Obtaing more information from API**
    - Wider variety of generated quotes and text for the user to choose from when generating output text.
 
+## License
 
+The project is under MIT License.
+
+## Developers
+
+Created by Johnathan Chewing and Nina Buscemi
