@@ -135,4 +135,4 @@ The project is under MIT License.
 
 ## Developers
 
-Created by Johnathan Chewing and Nina Buscemi
+Created by Johnathan Chewning and Nina Buscemi
