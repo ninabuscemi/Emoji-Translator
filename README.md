@@ -144,4 +144,4 @@ The project is under MIT License.
 
 ## Developers
 
-Created by Johnathan Chewning and Nina Buscemi
+Created by [Johnathan Chewning](https://github.com/JohnChewning) and [Nina Buscemi](https://github.com/ninabuscemi)
